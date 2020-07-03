@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Bootstrap 5 | About</title>
+  </head>
+  <body>
+
+<!-- Navbar Start -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0EFF4;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active font-weight-bold text-capitalize" href="about.html">about </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://itechsolution.xyz/" target="_blank">Acme Website Design</a></li>
+                <li><a class="dropdown-item" href="https://ahsan804.github.io/bootstrap4.github.io/" target="_blank">Bootstrap 4 Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://wordpress-d.itechsolution.xyz/" target="_blank">WordPress Design Airi</a></li>
+                <li><a class="dropdown-item" href="https://mis.itechsolution.xyz/" target="_blank">WordPress Design Hestia</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="contact.html">Contact Us</a>
+              </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>    
+
+<!-- Navbar End -->
+
+<!-- About Us Start -->
+
+    <section class="main_heading my-5">
+      <div class="text-center">
+        <h1 class="display-4">About Us</h1>
+        <hr class="w-25 mx-auto" style="height: 2px">
+      </div>
+      <div class="container-fluid my-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 col-xxl-6 ">
+            <figure>
+              <img src="./images/laptop1.jpg" alt="laptop image" class="img-fluid" style="border: 2px solid #524b3e;">
+            </figure>  
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column ">
+            <h1>My Journey</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto enim vel, totam consequatur aspernatur, quisquam quo, veritatis nesciunt perferendis nobis fugit quos, voluptatem sunt? Aliquam placeat dolorum optio quas delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus necessitatibus dolor dolore culpa saepe natus expedita corporis nostrum eaque totam, velit, sed ipsum iste facilis quo neque esse asperioress vel.</p>
+            <button type="button " class="btn btn-outline-info mx-auto" data-toggle="tooltip" data-placement="right" title="Who Am I">Check More </button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+<!-- About Us End -->
+
+      <div class="conatiner mb-5">
+        <div class="row">
+          <div class="col-12">
+            
+          </div>
+        </div>
+      </div>
+
+<!-- Footer Start-->
+      
+      <footer >
+        <p >&copy; 2020,Itech Solution Design By Ahsan. All rights reserved.</p>
+      </footer>
+<!-- Footer End -->
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {return new bootstrap.Tooltip(tooltipTriggerEl)})
+  </script>
+    <script>var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
+})</script>
+  </body>
+</html>

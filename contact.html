@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Bootstrap 5 | Contact Us</title>
+  </head>
+  <body>
+
+<!-- Navbar Start -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0EFF4;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="about.html">about </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://itechsolution.xyz/" target="_blank">Acme Website Design</a></li>
+                <li><a class="dropdown-item" href="https://ahsan804.github.io/bootstrap4.github.io/" target="_blank">Bootstrap 4 Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://wordpress-d.itechsolution.xyz/" target="_blank">WordPress Design Airi</a></li>
+                <li><a class="dropdown-item" href="https://mis.itechsolution.xyz/" target="_blank">WordPress Design Hestia</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize active font-weight-bold" href="contact.html">Contact Us</a>
+              </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>  
+
+<!-- Navbar End -->
+
+<!-- Contact Us Start -->
+
+    <section>
+      <div class="container mb-5 ">
+        <h1 class="text-center text-capitalize mt-3">Contact Us</h1>
+        <hr class="w-25 mx-auto"> 
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter Fullname">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label class="pr-3">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleDataList" class="form-label">Select City</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search">
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
+              </div>
+              <div class="mb-3">
+                <label class="mb-2">Select File</label>
+                <div class="form-file">
+                  <input type="file" class="form-file-input" id="customFile">
+                  <label class="form-file-label" for="customFile">
+                    <span class="form-file-text">Choose file...</span>
+                    <span class="form-file-button">Browse</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type Your Message"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary mb-5">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+<!-- Contact Us End -->
+
+<!-- Footer Start-->
+      
+      <footer>
+        <p>&copy; 2020,Itech Solution Design By Ahsan. All rights reserved.</p>
+      </footer>
+<!-- Footer End -->
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {return new bootstrap.Tooltip(tooltipTriggerEl)})</script>
+    
+  </body>
+</html>
